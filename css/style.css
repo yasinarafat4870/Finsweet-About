@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg-blue: #1c1e53;
+  --Dark-blue: #282938;
+  --White: #fff;
+  --Grey: #f4f6fc;
+  --Royal-blue: #2405f2;
+}
+
+/* ================================================
+            Navbar Part Css Start
+===================================================*/
+#navbar_part {
+  padding: 32px 0;
+  background: var(--bg-blue, #1c1e53);
+}
+#navbar_part .custom_nav a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.28s;
+  -webkit-transition: all linear 0.28s;
+  -moz-transition: all linear 0.28s;
+  -ms-transition: all linear 0.28s;
+  -o-transition: all linear 0.28s;
+  margin-left: 25px;
+}
+#navbar_part .custom_nav a:hover {
+  color: var(--White, #fff);
+}
+#navbar_part .custom_nav .Btn button {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 16px 48px;
+  background: transparent;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  margin-left: 25px;
+}
+#navbar_part .custom_nav .Btn button:hover {
+  color: var(--Dark-blue, #282938);
+  background: var(--Grey, #f4f6fc);
+}
+
+/* ================================================
+            Navbar Part Css End
+===================================================*/
+
+/* ================================================
+            About Part Css Start
+===================================================*/
+/* ================================================
+            About Part Css End
+===================================================*/
+
+/* ================================================
+            Goal Part Css Start
+===================================================*/
+/* ================================================
+            Goal Part Css End
+===================================================*/
+
+/* ================================================
+            Process Part Css Start
+===================================================*/
+/* ================================================
+            Process Part Css End
+===================================================*/
+
+/* ================================================
+            Misson Part Css Start
+===================================================*/
+/* ================================================
+            Misson Part Css End
+===================================================*/

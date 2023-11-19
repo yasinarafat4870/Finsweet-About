@@ -29,9 +29,7 @@ div {
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: "Poppins", sans-serif;
-}
+
 :root {
   --bg-blue: #1c1e53;
   --Dark-blue: #282938;
@@ -39,15 +37,18 @@ body {
   --Grey: #f4f6fc;
   --Royal-blue: #2405f2;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 /* ================================================
             Navbar Part Css Start
 ===================================================*/
 #navbar_part {
-  padding: 32px 0;
+  padding: 28px 0;
   background: var(--bg-blue, #1c1e53);
 }
-#navbar_part .custom_nav a {
+#navbar_part .custom_menu a {
   color: #bbbbcb;
   font-size: 16px;
   font-weight: 500;
@@ -59,10 +60,10 @@ body {
   -o-transition: all linear 0.28s;
   margin-left: 25px;
 }
-#navbar_part .custom_nav a:hover {
+#navbar_part .custom_menu a:hover {
   color: var(--White, #fff);
 }
-#navbar_part .custom_nav .Btn button {
+#navbar_part .Btn button {
   color: var(--White, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -78,7 +79,7 @@ body {
   -o-transition: all linear 0.3s;
   margin-left: 25px;
 }
-#navbar_part .custom_nav .Btn button:hover {
+#navbar_part .Btn button:hover {
   color: var(--Dark-blue, #282938);
   background: var(--Grey, #f4f6fc);
 }

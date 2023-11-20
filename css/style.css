@@ -91,6 +91,39 @@ body {
 /* ================================================
             About Part Css Start
 ===================================================*/
+
+#about_part {
+  padding: 128px 0;
+}
+#about_part .about_left_content h5 {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 24px;
+}
+#about_part .about_left_content h1 {
+  color: var(--Dark-blue, #282938);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 8px;
+}
+#about_part .about_left_content p {
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 27px;
+  margin-top: 31px;
+  opacity: 0.7;
+}
+#about_part .about_right_content img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 /* ================================================
             About Part Css End
 ===================================================*/
@@ -98,6 +131,34 @@ body {
 /* ================================================
             Goal Part Css Start
 ===================================================*/
+
+#goal_part .goal_body {
+  padding: 80px 0;
+  background: #f4f5f5;
+}
+#goal_part .goal_body .goal_heading h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#goal_part .goal_body .goal_content h3 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 4px;
+}
+#goal_part .goal_body .goal_content p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-right: 10px;
+  margin-top: 16px;
+}
+
 /* ================================================
             Goal Part Css End
 ===================================================*/
@@ -105,6 +166,56 @@ body {
 /* ================================================
             Process Part Css Start
 ===================================================*/
+
+#process_part {
+  padding: 128px 0;
+}
+#process_part .process_heading h4 {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#process_part .process_content {
+  margin-top: 60px;
+}
+#process_part .process_content picture img {
+  margin-left: 42px;
+}
+#process_part .process_content span {
+  position: relative;
+}
+#process_part .process_content span::after {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: var(--Royal-blue, #2405f2);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#process_part .process_content h3 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 32px;
+}
+#process_part .process_content p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
 /* ================================================
             Process Part Css End
 ===================================================*/
@@ -112,6 +223,438 @@ body {
 /* ================================================
             Misson Part Css Start
 ===================================================*/
+
+#misson_part {
+  padding: 128px 0;
+  background: #eef4fa;
+}
+#misson_part .misson_right {
+  padding-top: 96px;
+}
+
+#misson_part .misson_text h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 54px;
+}
+#misson_part .misson_text h3 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 16px;
+}
+#misson_part .misson_text p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 16px;
+  padding-right: 10px;
+}
+#misson_part .misson_img picture img {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
 /* ================================================
             Misson Part Css End
+===================================================*/
+
+/* ================================================
+            Work Part Css Start
+===================================================*/
+
+#work_part {
+  padding: 128px 0;
+}
+#work_part .work_part_heading h2 {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 48px;
+}
+#work_part .work_box {
+  padding: 50px 32px 48px 48px;
+  background: var(--Grey, #f4f6fc);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#work_part .work_box:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#work_part .work_box h4 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 26px;
+}
+#work_part .work_box p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 12px;
+}
+#work_part .left_text {
+  margin-top: 48px;
+}
+
+#work_part .left_text h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#work_part .left_text p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#work_part .logo_icon {
+  margin-top: 76px;
+  margin-left: 54px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#work_part .logo_icon:hover {
+  transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+  -moz-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  -o-transform: translateY(-30%);
+}
+
+/* ================================================
+            Work Part Css End
+===================================================*/
+
+/* ================================================
+            Meet Part Css Start
+===================================================*/
+
+#meet_part {
+  padding: 128px 0;
+  background: var(--Grey, #f4f6fc);
+}
+
+#meet_part .meet_heading h3 {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#meet_part .meet_box {
+  padding: 48px 64px 32px 64px;
+  background: var(--White, #fff);
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#meet_part .meet_box:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#meet_part .meet_box h6 {
+  color: #1d2130;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 30px;
+}
+#meet_part .meet_box p {
+  color: #1d2130;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+#meet_part .meet_box .meet_img {
+  position: relative;
+}
+#meet_part .meet_box .meet_img .meet_overlay {
+  position: absolute;
+  top: 0%;
+  left: 4.5%;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  scale: 0;
+}
+#meet_part .meet_box:hover .meet_overlay {
+  scale: 1;
+}
+#meet_part .meet_box .meet_img .meet_overlay .overlay_icons {
+  position: absolute;
+  bottom: 15%;
+  left: 21.5%;
+}
+#meet_part .meet_box .meet_img .meet_overlay .overlay_icons a {
+  color: var(--White);
+  margin-left: 10px;
+}
+
+/* ================================================
+            Meet Part Css End
+===================================================*/
+
+/* ================================================
+            Footer Part Css Start
+===================================================*/
+
+#footer_part {
+  padding-top: 100px;
+  background: var(--bg-blue);
+}
+
+#footer_part .footer_left p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 22px;
+}
+#footer_part .footer_right h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 14px;
+}
+#footer_part .footer_right p {
+  color: var(--Grey, #f4f6fc);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-right: 10px;
+}
+#footer_part .footer_right .social_icons {
+  margin-top: 32px;
+}
+#footer_part .footer_right .social_icons a [class="fa-brands fa-facebook-f"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #1674ea;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-facebook-f"]:hover {
+  color: var(--White, #fff);
+  background: #1674ea;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+
+#footer_part .footer_right .social_icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #1da1f2;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  margin-left: 7px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-twitter"]:hover {
+  color: var(--White, #fff);
+  background: #1da1f2;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+
+#footer_part .footer_right .social_icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #d62976;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  margin-left: 7px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-instagram"]:hover {
+  color: var(--White, #fff);
+  background: #d62976;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+
+#footer_part .footer_right .social_icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #0a66c2;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  margin-left: 7px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-linkedin-in"]:hover {
+  color: var(--White, #fff);
+  background: #0a66c2;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#footer_part .contact_part {
+  padding: 18px 32px;
+  background: #fcd980;
+  margin-top: 27px;
+}
+#footer_part .contact_part .contact_content h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 2px;
+}
+#footer_part .contact_part .contact_content a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+/* ================================================
+            Footer Part Css End
+===================================================*/
+
+/* ================================================
+            Last Footer Part Css Start
+===================================================*/
+
+#last_part {
+  padding: 32px 0 12px 0;
+}
+#last_part .last_left_part a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#last_part .last_right_part ul li a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#last_part .last_right_part ul li a:hover {
+  color: var(--Royal-blue);
+}
+
+/* ================================================
+            Last Footer Part Css End
 ===================================================*/

@@ -1,3 +1,5 @@
+/* ======================Poppins Font Link ======================== */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -430,7 +432,7 @@ body {
   left: 21.5%;
 }
 #meet_part .meet_box .meet_img .meet_overlay .overlay_icons a {
-  color: var(--White);
+  color: var(--White, #fff);
   margin-left: 10px;
 }
 

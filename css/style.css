@@ -38,6 +38,7 @@ div {
   --White: #fff;
   --Grey: #f4f6fc;
   --Royal-blue: #2405f2;
+  --Yellow: #fcd980;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -50,6 +51,15 @@ body {
   padding: 28px 0;
   background: var(--bg-blue, #1c1e53);
 }
+
+#navbar_part .custom_menu_icon {
+  background: var(--White);
+}
+#navbar_part .menu_bar_icon {
+  font-size: 22px;
+  padding-top: 6px;
+}
+
 #navbar_part .custom_menu a {
   color: #bbbbcb;
   font-size: 16px;
@@ -608,7 +618,7 @@ body {
 }
 #footer_part .contact_part {
   padding: 18px 32px;
-  background: #fcd980;
+  background: var(--Yellow, #fcd980);
   margin-top: 27px;
 }
 #footer_part .contact_part .contact_content h6 {
@@ -635,15 +645,28 @@ body {
 ===================================================*/
 
 #last_part {
-  padding: 32px 0 12px 0;
+  padding: 32px 0;
 }
+#last_part .custom_menu_icon {
+  background: var(--Yellow, #fcd980);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+#last_part .menu_bar_icon {
+  font-size: 22px;
+  padding-top: 6px;
+}
+
 #last_part .last_left_part a {
-  color: var(--Dark-blue, #282938);
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
   font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
 }
-#last_part .last_right_part ul li a {
+#last_part .last_right_part a {
   color: var(--Dark-blue, #282938);
   font-size: 16px;
   font-weight: 500;
@@ -654,8 +677,8 @@ body {
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
 }
-#last_part .last_right_part ul li a:hover {
-  color: var(--Royal-blue);
+#last_part .last_right_part a:hover {
+  color: var(--royal-blue);
 }
 
 /* ================================================

@@ -1,0 +1,744 @@
+/* ===================================================
+            Large Device Responcive Start
+=====================================================*/
+@media (max-width: 1199.98px) {
+  /* ===============================
+            About Part Start
+    =================================*/
+
+  #about_part .about_left_content h5 {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 12px;
+  }
+  #about_part .about_left_content h1 {
+    font-size: 41px;
+    line-height: 55px;
+    padding-top: 10px;
+  }
+  #about_part .about_left_content p {
+    font-size: 11px;
+    line-height: 18px;
+    padding-right: 51px;
+    margin-top: 13px;
+  }
+
+  /* ===============================
+            About Part End
+    =================================*/
+  /* ===============================
+            Goal Part Start
+    =================================*/
+
+  #goal_part .goal_body .goal_heading h6 {
+    font-size: 14px;
+  }
+  #goal_part .goal_body .goal_content h3 {
+    font-size: 28px;
+    line-height: 54px;
+  }
+
+  #goal_part .goal_body .goal_content p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 8px;
+  }
+
+  /* ===============================
+            Goal Part End
+    =================================*/
+  /* ===============================
+            Proces Part Start
+    =================================*/
+
+  #process_part {
+    padding: 70px 0;
+  }
+
+  /* ===============================
+            Proces Part End
+    =================================*/
+  /* ===============================
+            Misson Part Start
+    =================================*/
+
+  #misson_part .misson_text h6 {
+    font-size: 15px;
+    margin-top: 26px;
+  }
+  #misson_part .misson_text h3 {
+    font-size: 34px;
+    margin-top: 5px;
+  }
+  #misson_part .misson_text p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 27px;
+  }
+
+  /* ===============================
+            Misson Part End
+    =================================*/
+  /* ===============================
+            Work Part Start
+    =================================*/
+
+  #work_part {
+    padding: 70px 0;
+  }
+  #work_part .work_part_heading h2 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  #work_part .work_box h4 {
+    font-size: 21px;
+  }
+  #work_part .work_box p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* ===============================
+            Work Part End
+    =================================*/
+  /* ===============================
+            Meet Part Start
+    =================================*/
+
+  #meet_part .meet_box h6 {
+    color: #1d2130;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-top: 30px;
+  }
+  #meet_part .meet_box {
+    padding: 38px 33px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay {
+    top: 0%;
+    left: 0%;
+    width: 157px;
+    height: 157px;
+    scale: 0;
+  }
+  #meet_part .meet_box:hover .meet_overlay {
+    scale: 1;
+  }
+
+  /* ===============================
+            Meet Part End
+    =================================*/
+  /* ===============================
+            Footer Part Start
+    =================================*/
+  /* ===============================
+            Footer Part End
+    =================================*/
+  #footer_part .contact_part {
+    padding: 18px 0px;
+    background: #fcd980;
+    margin-top: 27px;
+  }
+}
+/* ===================================================
+            Large Device Responcive End
+=====================================================*/
+
+/* ===================================================
+            Medium Device Responcive Start
+=====================================================*/
+
+@media (max-width: 991.98px) {
+  /* ===============================
+            Navbar Part Start
+    =================================*/
+
+  #navbar_part {
+    padding: 16px 0;
+  }
+
+  #navbar_part .custom_menu {
+    margin-top: 20px;
+  }
+  #navbar_part .custom_menu a {
+    color: var(--Dark-blue);
+    background: var(--Yellow);
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  #navbar_part .Btn button {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  /* ===============================
+            Navbar Part End
+    =================================*/
+  /* ===============================
+            About Part Start
+    =================================*/
+  #about_part {
+    padding: 80px 0;
+  }
+  #about_part .about_left_content h5 {
+    font-size: 11px;
+    line-height: 0;
+  }
+  #about_part .about_left_content h1 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 17px;
+  }
+  #about_part .about_left_content p {
+    font-size: 9px;
+    line-height: 14px;
+    padding-right: 45px;
+  }
+
+  /* ===============================
+            About Part End
+    =================================*/
+  /* ===============================
+            Goal Part Start
+    =================================*/
+  #goal_part .goal_body .goal_heading h6 {
+    font-size: 10px;
+  }
+  #goal_part .goal_body .goal_content h3 {
+    font-size: 21px;
+    line-height: 31px;
+  }
+  #goal_part .goal_body .goal_content p {
+    font-size: 10px;
+    line-height: 17px;
+    margin-top: 10px;
+  }
+
+  /* ===============================
+            Goal Part End
+    =================================*/
+  /* ===============================
+            Proces Part Start
+    =================================*/
+  #process_part .process_heading h4 {
+    font-size: 33px;
+    line-height: 37px;
+  }
+  #process_part .process_content span::after {
+    width: 18px;
+    height: 18px;
+    top: 3px;
+  }
+  #process_part .process_content picture img {
+    width: 70%;
+    max-width: 70%;
+    margin-left: 26px;
+  }
+  #process_part .process_content h3 {
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 26px;
+  }
+  #process_part .process_content p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 12px;
+  }
+  /* ===============================
+            Proces Part End
+    =================================*/
+  /* ===============================
+            Misson Part Start
+    =================================*/
+  #misson_part {
+    padding: 60px 0;
+    background: #eef4fa;
+  }
+  #misson_part .misson_text h6 {
+    font-size: 11px;
+    margin-top: 12px;
+  }
+  #misson_part .misson_text h3 {
+    font-size: 25px;
+    margin-top: 13px;
+    line-height: 23px;
+  }
+  #misson_part .misson_text p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-right: 0;
+  }
+
+  /* ===============================
+            Misson Part End
+    =================================*/
+  /* ===============================
+            Work Part Start
+    =================================*/
+  #work_part .work_part_heading h2 {
+    font-size: 31px;
+    line-height: 39px;
+  }
+  #work_part .work_box {
+    padding: 31px 21px 25px 21px;
+  }
+  #work_part .work_box picture img {
+    width: 18%;
+  }
+  #work_part .work_box h4 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #work_part .work_box p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-top: 10px;
+  }
+  #work_part .left_text h6 {
+    font-size: 21px;
+  }
+  #work_part .left_text p {
+    font-size: 13px;
+    line-height: 0px;
+  }
+  #work_part .logo_icon {
+    margin-left: 9px;
+  }
+
+  /* ===============================
+            Work Part End
+    =================================*/
+  /* ===============================
+            Meet Part Start
+    =================================*/
+  #meet_part {
+    padding: 70px 0;
+  }
+  #meet_part .meet_heading h3 {
+    font-size: 37px;
+  }
+
+  #meet_part .meet_box h6 {
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  #meet_part .meet_box p {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay {
+    width: 96px;
+    height: 96px;
+    scale: 1;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay .overlay_icons {
+    left: 12%;
+    bottom: 11%;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay .overlay_icons a {
+    margin-left: 4px;
+  }
+  /* ===============================
+            Meet Part End
+    =================================*/
+  /* ===============================
+            Footer Part Start
+    =================================*/
+  #footer_part {
+    padding-top: 80px;
+  }
+  #footer_part .footer_left p {
+    font-size: 11px;
+    line-height: 22px;
+    padding-right: 34px;
+  }
+  #footer_part .footer_right h3 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  #footer_part .footer_right p {
+    font-size: 11px;
+    line-height: 21px;
+    padding-right: 34px;
+  }
+  #footer_part .contact_part {
+    padding: 13px 13px;
+    margin-top: 23px;
+  }
+  #footer_part .contact_part .contact_content h6 {
+    font-size: 16px;
+  }
+  #footer_part .contact_part .contact_content a {
+    font-size: 12px;
+    line-height: 28px;
+  }
+  /* ===============================
+            Footer Part End
+    =================================*/
+
+  /* ===============================
+            Last Part Start
+    =================================*/
+  #last_part .last_right_part {
+    margin-top: 20px;
+  }
+  #last_part .last_right_part a {
+    color: var(--White);
+    background: var(--Dark-blue);
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  /* ===============================
+            Last Part End
+    =================================*/
+}
+
+/* ===================================================
+            Medium Device Responcive End
+=====================================================*/
+/* ===================================================
+            Small Device Responcive Start
+=====================================================*/
+@media (max-width: 767.98px) {
+  /* ===============================
+            About Part Start
+    =================================*/
+  #about_part .about_left_content {
+    text-align: center;
+  }
+  #about_part .about_left_content p {
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0px 68px;
+    padding-bottom: 19px;
+  }
+
+  /* ===============================
+            About Part End
+    =================================*/
+  /* ===============================
+            Goal Part Start
+    =================================*/
+
+  #goal_part .goal_body .goal_content h3 {
+    font-size: 15px;
+  }
+  #goal_part .goal_body .goal_content p {
+    font-size: 9px;
+    padding-right: 0;
+    margin-top: 7px;
+  }
+  /* ===============================
+            Goal Part End
+    =================================*/
+  /* ===============================
+            Proces Part Start
+    =================================*/
+  #process_part .process_content p {
+    padding-right: 24px;
+  }
+  /* ===============================
+            Proces Part End
+    =================================*/
+  /* ===============================
+            Misson Part Start
+    =================================*/
+
+  #misson_part .misson_text {
+    text-align: center;
+  }
+  #misson_part .misson_text p {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0px 99px;
+    padding-bottom: 17px;
+  }
+
+  #misson_part .misson_right {
+    padding-top: 50px;
+  }
+
+  /* ===============================
+            Misson Part End
+    =================================*/
+  /* ===============================
+            Work Part Start
+    =================================*/
+
+  #work_part .work_part_heading h2 {
+    font-size: 29px;
+    line-height: 37px;
+  }
+  #work_part .work_box {
+    padding: 31px 22px 25px 21px;
+  }
+
+  #work_part .logo_icon {
+    margin-top: 72px;
+  }
+
+  /* ===============================
+            Work Part End
+    =================================*/
+  /* ===============================
+            Meet Part Start
+    =================================*/
+
+  #meet_part .meet_box {
+    padding: 20px 34px;
+  }
+  #meet_part .meet_box h6 {
+    font-size: 17px;
+  }
+  #meet_part .meet_box p {
+    font-size: 14px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay {
+    width: 143px;
+    height: 143px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay .overlay_icons {
+    left: 20%;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay .overlay_icons a {
+    margin-left: 8px;
+  }
+
+  /* ===============================
+            Meet Part End
+    =================================*/
+  /* ===============================
+            Footer Part Start
+    =================================*/
+  #footer_part .footer_left {
+    text-align: center;
+  }
+
+  #footer_part .footer_left p {
+    font-size: 14px;
+    padding: 0 113px;
+    padding-bottom: 60px;
+  }
+
+  #footer_part .footer_right {
+    text-align: center;
+  }
+
+  #footer_part .footer_right p {
+    font-size: 14px;
+    padding: 0 113px;
+  }
+  #footer_part .contact_part .contact_content a {
+    font-size: 14px;
+  }
+
+  /* ===============================
+            Footer Part End
+    =================================*/
+}
+
+/* ===================================================
+            Small Device Responcive End
+=====================================================*/
+/* ===================================================
+            Extra Small Device Responcive Start
+=====================================================*/
+@media (max-width: 575.98px) {
+  /* ===============================
+            Navbar Part Start
+    =================================*/
+
+  /* ===============================
+            Navbar Part End
+    =================================*/
+  /* ===============================
+            About Part Start
+    =================================*/
+
+  #about_part {
+    padding: 50px 0;
+  }
+  #about_part .about_left_content h5 {
+    font-size: 15px;
+  }
+  #about_part .about_left_content h1 {
+    padding-top: 27px;
+  }
+  #about_part .about_left_content p {
+    padding: 0px 35px;
+    padding-bottom: 19px;
+  }
+
+  /* ===============================
+            About Part End
+    =================================*/
+  /* ===============================
+            Goal Part Start
+    =================================*/
+
+  #goal_part .goal_body {
+    padding: 50px 0;
+    text-align: center;
+  }
+  #goal_part .goal_body .goal_heading h6 {
+    font-size: 13px;
+  }
+
+  #goal_part .goal_body .goal_content h3 {
+    font-size: 19px;
+  }
+
+  #goal_part .goal_body .goal_content p {
+    font-size: 12px;
+    padding: 0px 27px;
+    line-height: 19px;
+  }
+
+  /* ===============================
+            Goal Part End
+    =================================*/
+  /* ===============================
+            Proces Part Start
+    =================================*/
+
+  #process_part .process_heading h4 {
+    font-size: 23px;
+  }
+
+  #process_part .process_content p {
+    padding-right: 18px;
+  }
+
+  /* ===============================
+            Proces Part End
+    =================================*/
+  /* ===============================
+            Misson Part Start
+    =================================*/
+
+  #misson_part .misson_text h6 {
+    font-size: 15px;
+  }
+  #misson_part {
+    padding: 45px 0;
+  }
+  #misson_part .misson_text h3 {
+    font-size: 22px;
+  }
+  #misson_part .misson_text p {
+    padding: 0px 24px;
+  }
+
+  /* ===============================
+            Misson Part End
+    =================================*/
+  /* ===============================
+            Work Part Start
+    =================================*/
+  #work_part {
+    padding: 40px 0;
+  }
+
+  #work_part .work_part_heading h2 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  #work_part .work_box picture img {
+    width: 11%;
+  }
+  #work_part .left_text {
+    margin-top: 20px;
+  }
+  #work_part .left_text h6 {
+    font-size: 18px;
+    line-height: 48px;
+  }
+  #work_part .left_text p {
+    font-size: 10px;
+  }
+  #work_part .logo_icon {
+    margin-top: 37px;
+  }
+  /* ===============================
+            Work Part End
+    =================================*/
+  /* ===============================
+            Meet Part Start
+    =================================*/
+  #meet_part {
+    padding: 40px 0;
+  }
+  #meet_part .meet_heading h3 {
+    font-size: 23px;
+  }
+  #meet_part .meet_box {
+    padding: 12px 12px;
+  }
+  #meet_part .meet_box h6 {
+    font-size: 16px;
+  }
+  #meet_part .meet_box p {
+    font-size: 13px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay {
+    width: 116px;
+    height: 116px;
+  }
+  #meet_part .meet_box .meet_img .meet_overlay .overlay_icons {
+    left: 12%;
+  }
+
+  /* ===============================
+            Meet Part End
+    =================================*/
+  /* ===============================
+            Footer Part Start
+    =================================*/
+  #footer_part .footer_left p {
+    padding: 0 26px;
+    padding-bottom: 43px;
+  }
+
+  #footer_part .footer_right h3 {
+    font-size: 36px;
+  }
+
+  #footer_part .footer_right p {
+    padding: 0 26px;
+  }
+  #footer_part .contact_part .contact_content a {
+    font-size: 12px;
+  }
+  /* ===============================
+            Footer Part End
+    =================================*/
+  /* ===============================
+            Last Part Start
+    =================================*/
+  #last_part {
+    padding: 10px 0;
+  }
+  #last_part .last_left_part a {
+    font-size: 12px;
+  }
+  /* ===============================
+            Last Part End
+    =================================*/
+}
+/* ===================================================
+            Extra Small Device Responcive End
+=====================================================*/
